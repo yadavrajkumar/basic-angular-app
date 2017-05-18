@@ -16,19 +16,17 @@
 						<a class="navbar-brand" href="#">AngularJS Weather App</a>
 					</div>	
 					<div class="nav navbar-nav navbar-right">
-						<li><a ui-sref="home"><i class="fa fa-home"></i>Home</a></li>
-						<li><a ui-sref="register"><i class="fa fa-home"></i>Resgiter</a></li>
+						<li><a href="#/"><i class="fa fa-home"></i>Home</a></li>
+						<li><a href="#/register"><i class="fa fa-home"></i>Resgiter</a></li>
 					</div>			
 				</div>
 			</nav>
 	</header>
 	<div class="container">
-		<div> 
-			<ui-view></ui-view>
-		</div>
+		<div ng-view> </div>
 	</div>
 	<script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
